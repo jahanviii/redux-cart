@@ -8,7 +8,6 @@ import { useSelector } from 'react-redux';
 const NavBar = () => {
   const cartProducts = useSelector(state => state.cart); // Connect to cart state from Redux store
 
-  // Check if cartProducts is defined before accessing its length
   const cartItemCount = cartProducts ? cartProducts.length : 0;
 
   return (

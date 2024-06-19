@@ -7,6 +7,7 @@ const store=configureStore({
 
 cart:cartSlice,
 products:productSlice
+    
 
 
 }

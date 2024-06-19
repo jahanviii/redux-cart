@@ -6,7 +6,7 @@ import NavBar from './NavBarPAnel'
 
 const RootLayout = () => {
   return (
-    <>
+    <>  
      <Provider store={store}>
       <NavBar/>
       <main>
